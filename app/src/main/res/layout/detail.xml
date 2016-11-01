@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Title"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:text="Artist"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_below="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_alignEnd="@+id/textView1"
+            android:layout_weight="0"
+
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="Time"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="0"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.27"
+        android:weightSum="1">
+
+
+<Button
+    android:id="@+id/btn_like"
+    android:layout_width="46dp"
+    android:layout_height="46dp"
+    android:background="@drawable/icons5353"
+    />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

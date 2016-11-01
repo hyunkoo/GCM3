@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtItem"/>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="메인 공지사항"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_margin="20dp"
+        android:dividerHeight="7dp"
+        android:divider="#ffffff"
+        android:background="#f6f6f6"
+        android:contextClickable="true"
+        android:scrollbars="none"
+        android:overScrollMode="never">
+        <!--android:fastScrollAlwaysVisible="true"-->
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icons5955"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="85dp"
+            android:id="@+id/btn_keyword"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons6030"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="110dp"
+            android:id="@+id/btn_mypage"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
